@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <!-- this is a link your css stylesheet. do not edit this. -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- These are the scripts needed to run your game/web toy. do not edit this. -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/planck@latest/dist/planck.min.js"></script>
+        <script src="https://p5play.org/v3/p5play.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <!-- These are links to your javascript files. sketch is for your game/web toy. scripts is for your website. do not edit this. -->
+        <script src="sketch.js"></script>
+        <script src="scripts.js"></script>
+        
+        <!-- If you add any links to any other resources, put them below this line -->
+
+    </head>
+    <body>
+        <!-- Your website content goes here -->
+        <h1>Spaceships</h1>
+        <img class="STAR2" src="assets/STAR2.jpg">
+        <img class="STAR1" src="assets/STAR1.jpg">
+        <h2>The object of this game is to defeat all of the enemy spaceships by using lasers.</h2>
+
+        <div class="Instructions">
+        <h4>How to play:</h4>
+        <p1>Use the left and right arrow keys to move left and right on the screen.</p1>
+        
+        <!-- <img class="LeftAndRight" src="assets/L&Rkeys.png"> -->
+        <p2><br>Use the up arrow key to shoot lasers at enemy ship.<br>To destroy enemy ships you must hit them with your lasers, so make sure you aim properly</p2>
+        <!-- <img class="Up" src="assets/UpKey.png"> -->
+        </div>
+
+        <div class="scroll">
+        <img class="scrollDown1" src="assets/scrollDown.png">
+        <main></main>
+        <img class="scrollDown2" src="assets/scrollDown.png">
+        </div>
+
+        <div class="AboutMe">
+        <h3>About what I learned</h3>
+        <p3>This unit I learned a lot about java script in both creating a website and a game. In this game I used different information from different chapters with Mirmir, the types of code that I used were the following:<br> - If and else statements<br> - Sprites<br> - Variables<br> - Functions<br> - Positions <br> - Velocity <br> - Colliding <br> - Width and Height <br> But in this unit I have learned a lot more than just that, I have learned how to create circles, how to add images and sounds, and if and else statements, I also learned how to add and change colors using rgb and create colors, and how to use positions to move things around, along with mouseX and mouseY. I also learned how to change the color and size of the text in a website and how to add a header, a break, and a paragraph. I learned how to add images, and how to load sounds and images. I learned how to change the font of the text. I learned how to make variables. But not only that but how to create sprites and add them to groups and create animations, I learned how to use functions. How to create websites and how to do padding and margin, How to use classes and how to change the size and shape of paragraphs. I learned how to create for loops. I learned how to use keys pressed to see if you're pressing a key or not. I learned how to use collision detection. I also learned how to use movement magic, and how to use random, and repetition which is how to use loops to repeat stuff. And how to use arrays. I learned how to make the layout of a website and how to style a website to make it look better. I learned how to use gravity and velocity and animation, along with how to create a labyrinth using blocks. I also learned how to create a stage and what everything in a stage means, and how to change blocks and animations. I learned about pixels and how to change the color and where each pixel is and how to show a pixel at a specific point, also how to create a mosaic and how to see the specific color of a pixel. I learned how to create a filter and how to change only half of the colors into the opposite of the other half. And finally I have learned how to create classes in a game, and how to write code in those classes, how to make buttons and connect it to a website, and how to use onclick in websites, and hover.
+        </p3>
+        </div>
+        
+        <div class="gallery">
+        <img class="photo" src="assets/Spaceship.png" onclick="EnemyShipChange()">
+        <button class="button spaceship">Spaceship</button>
+        </div>
+        <!-- the 'main' tags below are where your sketch will appear. do not edit this. -->
+        <main></main>
+
+
+    </body>
+</html>

@@ -1,0 +1,102 @@
+/* all of your css goes here */
+body{
+    background-image: url('assets/spacebg.jpg');
+}
+
+h1{
+    font-family: monaco;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -800px;
+    color: white;
+    margin-left: -400px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: -150px;
+    margin-left: -400px;
+}
+
+h3{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+div{
+    float: left;
+    margin-top: -100px;
+}
+
+div.AboutMe{
+    border-style: solid;
+    border-color: white;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+p3{  
+    width: 800px;
+    color: white;
+}
+
+div.scroll{
+    float: left;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+
+img.scrollDown1{
+    width: 100px;
+    height: 600px;
+    border: solid white 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+
+img.scrollDown2{
+    width: 100px;
+    height: 600px;
+    border: solid white 10px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 1300px;
+    margin-top: -620px;
+}
+
+main{
+    text-align: center;
+    margin-top: -800px;
+}
+
+div.gallery{
+    width: 10px;
+    height: 20px;
+}
+
+div.Instructions{
+    color:  white;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    border: dashed white;
+}
+
+img.STAR1{
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+img.STAR2{
+    margin-top: 750px;
+}
